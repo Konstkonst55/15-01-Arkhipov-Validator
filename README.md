@@ -1,4 +1,5 @@
 # 15-01-Arkhipov-Validator
 
-![image](https://ibb.co/XZTZRC7)
+![image](https://i.ibb.co/Lzfz7Zx/image.png)
+![image](https://i.ibb.co/kSdCMj8/image.png)
 
