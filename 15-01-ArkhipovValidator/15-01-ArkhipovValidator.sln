@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32602.291
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15-01-ArkhipovValidator", "15-01-ArkhipovValidator\15-01-ArkhipovValidator.csproj", "{09A71427-A8BD-4EE7-B09B-5B3CCC0EE297}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValidatorUnitTests", "ValidatorUnitTests\ValidatorUnitTests.csproj", "{BCAD2BBC-4987-455F-A69E-C7A0ECAD199F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{09A71427-A8BD-4EE7-B09B-5B3CCC0EE297}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09A71427-A8BD-4EE7-B09B-5B3CCC0EE297}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09A71427-A8BD-4EE7-B09B-5B3CCC0EE297}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09A71427-A8BD-4EE7-B09B-5B3CCC0EE297}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCAD2BBC-4987-455F-A69E-C7A0ECAD199F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCAD2BBC-4987-455F-A69E-C7A0ECAD199F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCAD2BBC-4987-455F-A69E-C7A0ECAD199F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCAD2BBC-4987-455F-A69E-C7A0ECAD199F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2AF9B4D9-BD17-49AC-AAD9-A252C5491476}
+	EndGlobalSection
+EndGlobal

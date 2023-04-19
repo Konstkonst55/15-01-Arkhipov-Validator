@@ -1,1 +1,1 @@
-# 15-01-Arkhipov-Validator
+# 15-01-Arkhipov-Validator B2

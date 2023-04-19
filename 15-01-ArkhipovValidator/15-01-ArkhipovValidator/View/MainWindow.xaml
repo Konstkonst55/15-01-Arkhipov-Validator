@@ -1,0 +1,29 @@
+﻿<Window x:Class="_15_01_ArkhipovValidator.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_15_01_ArkhipovValidator"
+        xmlns:toolkit="http://schemas.xceed.com/wpf/xaml/toolkit"
+        mc:Ignorable="d"
+        Title="Validator" Height="450" Width="373.541">
+    <StackPanel Margin="10">
+        <TextBlock>
+            <Run Text="Имя"/>
+            <Run x:Name="rNamePassed" Text=""/>
+        </TextBlock>
+        <TextBox x:Name="tbName" MaxLength="25" Margin="0,10,0,10" TextChanged="tbName_TextChanged"/>
+
+        <TextBlock>
+            <Run Text="Фамилия"/>
+            <Run x:Name="rLastNamePassed" Text=""/>
+        </TextBlock>
+        <TextBox x:Name="tbLastName" MaxLength="30" Margin="0,10,0,10" TextChanged="tbLastName_TextChanged"/>
+
+        <TextBlock>
+            <Run Text="Почта"/>
+            <Run x:Name="rEmailPassed" Text=""/>
+        </TextBlock>
+        <toolkit:MaskedTextBox x:Name="mtbEmail" Margin="0,10,0,10" TextChanged="mtbEmail_TextChanged"/>
+    </StackPanel>
+</Window>
